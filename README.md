@@ -1,35 +1,48 @@
-# HACKBYTE-2024
+# Enterprise-Ready Video Conferencing App
 
+This README provides an overview of our enterprise-grade video conferencing application built using Next.js 14, Stream, Tailwind CSS, ShadCn, TypeScript, and Clerk.
 
----
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Use Cases](#use-cases)
+4. [Getting Started](#getting-started)
+5. [Contributing](#contributing)
+6. [License](#license)
 
-# Gesture-to-Keyboard Control System
-
-This project implements a gesture-to-keyboard control system that allows users to interact with desktop applications using hand gestures. The system utilizes computer vision techniques to recognize predefined hand gestures from a webcam feed and maps them to corresponding keyboard controls/actions.
+## Introduction
+Our video conferencing app is designed to provide seamless and secure communication for enterprises. Leveraging cutting-edge technologies, it ensures high-quality video and audio conferencing along with robust security measures. Built on Next.js 14 for its performance and developer-friendly features, the app integrates Stream for real-time video streaming, Tailwind CSS for responsive UI design, ShadCn for enhanced UI shadows, TypeScript for type safety, and Clerk for authentication and user management.
 
 ## Features
+- **High-Quality Video & Audio:** Delivering crisp video and clear audio for productive meetings.
+- **Real-Time Collaboration:** Enable real-time screen sharing and document collaboration for enhanced productivity.
+- **End-to-End Encryption:** Ensuring secure communication with end-to-end encryption of all data.
+- **Customizable UI:** Tailor the user interface according to your brand's identity and preferences.
+- **User Authentication:** Securely manage user accounts and permissions with Clerk's authentication system.
+- **Scalability:** Designed to scale seamlessly to accommodate growing enterprise needs.
 
-- **Hand Gesture Recognition**: Detects and localizes hand gestures from live video feed captured by a webcam.
-- **Keyboard Control**: Converts recognized hand gestures into keyboard inputs to control desktop applications.
-- **Customizable Gesture Mapping**: Allows users to define and customize mappings between hand gestures and keyboard controls/actions.
-- **Real-time Feedback**: Provides visual or auditory feedback to users to indicate when a gesture has been recognized successfully.
-- **Configuration Options**: Enables users to adjust recognition sensitivity and customize gesture-keyboard mappings through a settings interface.
+## Use Cases
+1. **Remote Team Collaboration:** Facilitate smooth collaboration among remote teams with high-quality video conferencing and real-time collaboration tools.
+2. **Client Meetings:** Conduct professional client meetings with crystal-clear video and audio quality, ensuring a seamless experience.
+3. **Training & Webinars:** Host interactive training sessions and webinars with screen sharing features.
+4. **Interviews & Recruitment:** Conduct remote interviews and recruitment processes efficiently, maintaining professionalism and security.
+5. **Internal Meetings:** Streamline internal meetings, ensuring effective communication and collaboration among team members.
 
+## Getting Started
+To get started with the development or deployment of our video conferencing app, follow these steps after cloning:
 
-## Dependencies
+1. Install dependencies:
+   ```
+   cd <project-folder>
+   npm install
+   ```
 
-- Python 3.x
-- OpenCV
-- NumPy
+2. Configure environment variables:
+   - Set up environment variables required for Stream, Next and Clerk as per the documentation.
 
-## Contributing
+3. Run the development server:
+   ```
+   npm run dev
+   ```
 
-Contributions to the project are welcome! Please feel free to submit bug reports, feature requests, or pull requests to help improve the system.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to customize the README further based on your project's specific implementation details and requirements.
+4. Access the app in your browser at `http://localhost:3000`.
